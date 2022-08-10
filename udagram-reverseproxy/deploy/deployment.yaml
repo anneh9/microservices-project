@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: reverseproxy
-        image: anneh9/reverseproxy
+        image: anneh9/reverseproxy:v1
         ports:
         - containerPort: 80
