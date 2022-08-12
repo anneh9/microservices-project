@@ -30,5 +30,5 @@ after_success:
   - docker push anneh9/udagram-api-feed:v1
   - docker push anneh9/udagram-api-user:v1
   - docker push anneh9/reverseproxy:v1
-  - docker push anneh9/udagram-frontend:v1
+  - docker push anneh9/udagram-frontend:v2
 
