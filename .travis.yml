@@ -23,7 +23,7 @@ script:
   - docker tag udagram-api-feed anneh9/udagram-api-feed:v1
   - docker tag udagram-api-user anneh9/udagram-api-user:v1
   - docker tag reverseproxy anneh9/reverseproxy:v1
-  - docker tag udagram-frontend anneh9/udagram-frontend:v1
+  - docker tag udagram-frontend anneh9/udagram-frontend:v2
 
 after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
