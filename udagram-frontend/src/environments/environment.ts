@@ -6,7 +6,7 @@ export const environment = {
   production: false,
   appName: 'Udagram',
 // This file can be replaced during build by using the `fileReplacements` array.
-  apiHost: 'http://a0e551754f4204e21b90935b38b7ba79-2103333817.us-east-2.elb.amazonaws.com:8080/api/v0'
+  apiHost: 'http://af72d1f60ea474fa18196cee7b8cbc1a-1230391645.us-east-2.elb.amazonaws.com:8080/api/v0'
 };
 
 /*
