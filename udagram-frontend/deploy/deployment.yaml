@@ -15,7 +15,7 @@ spec:
         service: frontend
     spec:
       containers:
-      - image: anneh9/udagram-frontend:v2
+      - image: anneh9/udagram-frontend:v3
         name: frontend
         imagePullPolicy: Always  
         resources:
